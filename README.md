@@ -1,17 +1,11 @@
-# zcode-skills
+# understand-codebase
 
-Agent skills for the [skills.sh](https://skills.sh) ecosystem, focused on real-world codebase understanding workflows.
-
-## Skills
-
-| Skill | Description |
-|-------|-------------|
-| [`understand-codebase`](./skills/understand-codebase/SKILL.md) | Codebase understanding, orientation, caller analysis, and refactor impact via `codegraph` + `codebase-memory` + `fast-context` MCPs. Includes cross-verification rules for ~15 known tool pitfalls (semantic_query full-library bug, is_test always false on Function, LSP public-service caller gap, Cypher subset limits, etc.). |
+An agent skill for [skills.sh](https://skills.sh) that provides a codebase-understanding workflow via `codegraph` + `codebase-memory` + `fast-context` MCPs, with cross-verification rules for ~15 known tool pitfalls.
 
 ## Install
 
 ```bash
-npx skills add jaredshuai/zcode-skills
+npx skills add jaredshuai/understand-codebase
 ```
 
 ## Prerequisites for `understand-codebase`
